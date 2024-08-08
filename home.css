@@ -419,6 +419,7 @@ hr {
 
     .menu li a {
         padding: 1rem;
+        line-height: 30px;
     }
 
     .content-main {
@@ -518,6 +519,9 @@ hr {
     .works-detail {
         padding: 2rem;
         margin: -1rem 0;
+    }
+    .works-detail a:hover {
+        color: #FF6464;
     }
 
     .img-detail>span:nth-child(1) {
