@@ -430,13 +430,14 @@ hr {
     .main-left {
         margin: 10px 0;
     }
-
     .download h3 {
         width: 50%;
         margin: 2rem auto;
     }
-   
-
+    .main-left h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
     .re-view {
         justify-content: center;
     }
