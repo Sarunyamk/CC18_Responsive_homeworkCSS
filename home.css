@@ -146,7 +146,7 @@ li {
 .content-box {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 2rem;
 
 }
 
@@ -219,6 +219,9 @@ li {
 
 .feature-detail {
     padding: 1rem 5rem 1rem 2rem;
+}
+.feature-detail h1 {
+    font-size: 2rem;
 }
 
 .img-detail>span:nth-child(1) {
@@ -341,7 +344,17 @@ hr {
 
 .works-detail {
     padding: 1rem 1rem 1rem 2rem;
-    
+  
+}
+.works-detail h1 {
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.works-detail a {
+    color: #142850;
+}
+.works-detail a:hover {
+    color: #FF6464;
 }
 
 .img-detail>span:nth-child(1) {
@@ -372,9 +385,7 @@ hr {
     width: 70%;
     margin: 0 auto;
 }
-.works-detail {
-    margin: 5rem 0 5rem;
-}
+
 .detail-page-img img {
     width: 100%;
     margin-bottom: 1rem;
