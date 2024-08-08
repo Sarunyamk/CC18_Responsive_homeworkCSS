@@ -478,7 +478,7 @@ hr {
 
     .works-box {
         width: 100%;
-        margin: 2rem auto;
+        margin: 1rem auto;
         /* background-color: red; */
     }
 
@@ -486,8 +486,8 @@ hr {
 
         flex-direction: column;
         justify-content: center;
-
     }
+   
 
     .works-img {
         width: 90%;
@@ -500,7 +500,8 @@ hr {
     }
 
     .works-detail {
-        padding: 1rem;
+        padding: 2rem;
+        margin: -1rem 0;
     }
 
     .img-detail>span:nth-child(1) {
