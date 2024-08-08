@@ -608,18 +608,7 @@ hr {
         font-size: 30px;
         line-height: 40px;
     }
-    .re-view {
-        justify-content: center;
-    }
-
-    .re-view a {
-        visibility: hidden;
-    }
-
-    .content-box {
-        flex-direction: column;
-    }
-
+  
     .featured>h1:nth-child(1) {
         text-align: center;
     }
@@ -785,10 +774,10 @@ hr {
     .re-view {
         justify-content: center;
     }
-
     .re-view a {
         visibility: hidden;
     }
+
 
     .content-box {
         flex-direction: column;
