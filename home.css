@@ -20,10 +20,15 @@ li {
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: #f8f9fa;
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    font-size: 1.5rem;
 }
 
 
@@ -76,6 +81,8 @@ li {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 100px;
+
     /* background-color: aqua; */
 }
 
@@ -126,7 +133,9 @@ li {
 .recent {
     background-color: lightblue;
 }
-
+.works {
+    margin-top: 10rem;
+}
 .Box-detail {
     width: 80%;
     margin: 0 auto;
@@ -278,6 +287,7 @@ hr {
     width: 70%;
     margin: 0 auto;
     overflow: hidden;
+    margin-top: 8rem;
 }
 
 .blog>h1:nth-child(1) {
@@ -389,6 +399,7 @@ hr {
 .detail-page {
     width: 70%;
     margin: 0 auto;
+    margin-top: 8rem;
 }
 
 .detail-page-img img {
@@ -399,21 +410,21 @@ hr {
     margin-top: 1rem;
 }
 @media (max-width: 1200px) {
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        text-align: right;
-        /* Align menu items to the right */
-    }
+    
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
 
-    .menu-toggle:checked+.menu-icon+.menu {
-        display: flex;
-    }
+}
 
-    .menu-icon {
-        display: flex;
-    }
+
 
     .menu li {
         margin: 0;
@@ -479,6 +490,7 @@ hr {
         width: 90%;
         margin: 0 auto;
         overflow: hidden;
+        margin-top: 8rem;
     }
 
     .detail-blog {
@@ -495,6 +507,7 @@ hr {
     .works-box {
         width: 100%;
         margin: 1rem auto;
+        padding-top: 2rem;
         /* background-color: red; */
     }
 
@@ -550,6 +563,7 @@ hr {
     /*Detail page*/
     .detail-page {
         width: 100%;
+        margin-top: 8rem;
     }
     .detail-page-img {
         margin: 0 auto;
@@ -567,6 +581,19 @@ hr {
 
 }
 @media (max-width: 992px) {
+    
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    font-size: 1rem;
+}
     .menu {
         display: none;
         flex-direction: column;
@@ -642,6 +669,7 @@ hr {
         width: 90%;
         margin: 0 auto;
         overflow: hidden;
+        margin-top: 8rem;
     }
 
     .detail-blog {
@@ -705,6 +733,7 @@ hr {
     /*Detail page*/
     .detail-page {
         width: 90%;
+        margin-top: 8rem;
     }
     .detail-page-img {
         margin: 0 auto;
@@ -820,6 +849,7 @@ hr {
         width: 90%;
         margin: 0 auto;
         overflow: hidden;
+        margin-top: 8rem;
     }
 
     .detail-blog {
@@ -891,6 +921,7 @@ hr {
     /*Detail page*/
     .detail-page {
         width: 90%;
+        margin-top: 8rem;
     }
     .detail-page-img {
         margin: 0 auto;
@@ -998,6 +1029,7 @@ hr {
         width: 90%;
         margin: 0 auto;
         overflow: hidden;
+        margin-top: 8rem;
     }
 
     .detail-blog {
@@ -1066,6 +1098,7 @@ hr {
     /*Detail page*/
     .detail-page {
         width: 90%;
+        margin-top: 8rem;
     }
     .detail-page-img {
         margin: 0 auto;
